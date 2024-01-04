@@ -1,0 +1,269 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Import Google Fonts */
+  
+  
+  /* Typography */
+  body {
+    font-family: Poppins, sans-serif; /* Fallback font */
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to bottom right, #f6d365, #fda085); /* Example gradient */
+}
+  
+  h1, h2, h3 {
+    font-family: Georgia, serif;
+    /* Additional styles for headings */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+  }
+  
+  /* Hero section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background: linear-gradient(to bottom right, #f6d365, #fda085); /* Example gradient */
+}
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    outline: none;
+  }
+  
+  .btn:hover {
+    background-color: #ff6347;
+  }
+  
+  /* Products page specific styles */
+  .products {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .products h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .product {
+    margin-bottom: 40px;
+  }
+  
+  .product img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .product h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .product p {
+    color: #666;
+    margin-top: 8px;
+  }
+  
+  /* About section */
+  .about-us {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .about-us p {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact page specific styles */
+  .contact-form {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-form p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ff6347;
+  }
+  
+  /* Newsletter section */
+  .newsletter {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .newsletter h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .newsletter p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff6347;
+    outline: none;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #555;
+  }
+  
+  /* 3D Button Effect */
+
+
+/* 3D Button Effect */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    outline: none; /* Remove outline */
+  }
+  
+  .btn:hover {
+    background-color: #ff6347;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn:focus {
+    outline: none; /* Remove outline on focus */
+  }
+
+  
+  
